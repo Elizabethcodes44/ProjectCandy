@@ -1,0 +1,36 @@
+.heropage{
+   
+    background-color: black;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heropage img {
+    height: 600px;
+    width: 500px;
+    border-radius: 50%;
+}
+.textandimage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+.textandimage h2 {
+    font-size: 80px;
+    font-family: cursive;
+    
+    color:goldenrod;
+    
+}
+.textandimage h1 {
+    font-size: 120px;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    color:goldenrod;
+    
+}
