@@ -1,50 +1,52 @@
 .header {
-    background-color: black;
-    color:white; /* Background color for the header */
-   
+  background-color: black;
+  color: white; /* Background color for the header */
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
 }
 
 header {
-    display: flex;
-    justify-content: space-between; /* Spacing between the left, center, and right sections */
-    align-items: center; /* Center items vertically */
-    padding-top: 10px;
-    padding-inline-start: 10px;
-
+  display: flex;
+  justify-content: space-between; /* Spacing between the left, center, and right sections */
+  align-items: center; /* Center items vertically */
+  padding-top: 10px;
+  padding-inline-start: 10px;
 }
 
 .header_left,
 .header_right {
-    display: flex;
-    align-items: center; /* Center items vertically */
+  display: flex;
+  align-items: center; /* Center items vertically */
 }
 
 .header_left .header_list,
 .header_right .header_list {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-family: cursive;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
 }
 
 .header_center {
-    flex-grow: 1; /* Allow the center section to grow and take up remaining space */
-    text-align: center; /* Center-align text */
+  flex-grow: 1; /* Allow the center section to grow and take up remaining space */
+  text-align: center; /* Center-align text */
 }
 
 .logo {
-    height: 80px; 
-    margin-bottom: 10px;/* Adjust logo height as needed */
+  height: 80px;
+  margin-bottom: 10px; /* Adjust logo height as needed */
 }
 .header_list li {
-    margin-right: 20px; /* Add space between list items */
+  margin-right: 20px; /* Add space between list items */
 }
 .header_list > li:hover {
-    cursor: pointer;
-    color: orangered;
-  }
-  .header_list .active {
-    cursor: pointer;
-    color:orangered;
-  }
+  cursor: pointer;
+  color: orangered;
+}
+.header_list .active {
+  cursor: pointer;
+  color: orangered;
+}
