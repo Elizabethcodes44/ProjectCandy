@@ -1,6 +1,6 @@
 import "./header.css";
 import { Link } from "react-scroll";
-import logo from "../../../public/assets/logo.svg";
+import logo from "/assets/logo.svg";
 export default function Header() {
   return (
     <>
@@ -37,7 +37,7 @@ export default function Header() {
                   to="Sunglasses"
                   spy={true}
                   smooth={true}
-                  offset={-150}
+                  offset={-100}
                   duration={500}
                 >
                   SUNGLASSES
@@ -56,7 +56,7 @@ export default function Header() {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-150}
+                  offset={-100}
                   duration={500}
                 >
                   ABOUT US

@@ -1,0 +1,44 @@
+/* about.css */
+
+/* Container for About section */
+.About {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  /* Heading */
+  .About h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: cursive;
+  }
+  
+  /* Paragraph */
+  .About p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+    
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .About {
+    animation: fadeIn 1s ease-in-out;
+  }
+  

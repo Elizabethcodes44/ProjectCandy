@@ -1,0 +1,68 @@
+/* sunglasses.css */
+
+/* Container for the sunglasses */
+.sunglasses_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+}
+
+/* Individual sunglasses item */
+.sunglasses_item {
+  margin: 20px;
+  text-align: center;
+  width: 300px; /* Width of each card */
+  height: 450px; /* Increased height for each card */
+  border: 1px solid #ccc; /* Add border for visual separation */
+  border-radius: 10px;
+  overflow: hidden; /* Hide any overflowing content */
+  background-color: black;
+  margin-top: 10px;
+
+}
+
+/* Image of the sunglasses */
+.sunglasses_image {
+  width: 100%; /* Ensure image fills the card */
+  height: auto; /* Maintain aspect ratio */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+/* Details section including price and button */
+.sunglasses_details {
+  padding: 10px;
+  background-color: #f9f9f9; /* Background color for details section */
+}
+
+/* Price of the sunglasses */
+.sunglasses_price {
+  font-weight: bold;
+}
+
+/* Add to Cart button */
+.addtocart {
+  margin-top: 10px; /* Add margin to create space between price and button */
+  padding: 8px 16px;
+  background-color: orangered; /* Adjust color as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.shades {
+  font-size: 30px; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Add margin to separate from the cards */
+  text-align: center; /* Center the text horizontally */
+  color: white; /* Text color for the heading */
+  width: 100%; 
+  margin-top:20px;
+  font-style: italic;
+  font-family: cursive;/* Ensure the heading takes the full width */
+}
+.addtocart:hover {
+  background-color: black; /* Adjust hover color as needed */
+}
