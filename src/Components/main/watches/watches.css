@@ -1,0 +1,74 @@
+/* watches.css */
+
+/* Container for watches */
+.watches_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 500px;
+    padding-top: 20px;
+  }
+  
+  /* Title for watches */
+  .watches {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Watch items container */
+  .watches_items {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  /* Watch item container */
+  .watches_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 20px; /* Adjust margin as needed */
+  }
+  
+  /* Watch image */
+  .watches_image {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Watch details container */
+  .watches_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Watch price */
+  .watches_price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px; /* Adjust spacing */
+  }
+  
+  /* Add to cart button */
+  .watchescart {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .addtocart:hover {
+    background-color: #0056b3;
+  }
+  h1 {
+    font-family: Cursive;
+  }
+  

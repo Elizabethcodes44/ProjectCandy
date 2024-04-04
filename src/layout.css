@@ -9,5 +9,6 @@
   .layout-container a img {
     height: 50px;
     width: auto;
+    border-radius: 10px;
   }
   
