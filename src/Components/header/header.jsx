@@ -1,11 +1,13 @@
 import "./header.css";
 import { Link } from "react-scroll";
 import logo from "/assets/logo.svg";
-export default function Header() {
+import cart from "/assets/cart.png"
+export default function Header({cartCount}) {
   return (
     <>
       <div className="header">
         <header>
+          
           <div className="header_left">
             <ul className="header_list">
               <li>
@@ -49,6 +51,10 @@ export default function Header() {
             <img src={logo} className="logo" alt="logo" />
           </div>
           <div className="header_right">
+          <div className="cart-container">
+              <img src={cart} alt="cart" className="cart-icon" />
+              <span className="cart-count">{cartCount}</span> 
+            </div>
             <ul className="header_list">
               <li>
                 {" "}

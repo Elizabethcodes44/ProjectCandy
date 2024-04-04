@@ -36,11 +36,28 @@ header {
   flex-grow: 1; /* Allow the center section to grow and take up remaining space */
   text-align: center; /* Center-align text */
 }
+/* header.css */
+.cart-container {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px; /* Adjust as needed */
+  right: -10px; /* Adjust as needed */
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
 
 .logo {
   height: 80px;
   margin-bottom: 10px; /* Adjust logo height as needed */
 }
+
 .header_list li {
   margin-right: 20px; /* Add space between list items */
 }

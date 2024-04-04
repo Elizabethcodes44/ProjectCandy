@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import initialGlassesItems from "../../../../glassesitems.js";
 import "./sunglasses.css";
 
-export default function Sunglasses({ addTheCartItem }) {
+export default function Sunglasses({ addToCart }) {
   const [glasses, setGlasses] = useState(initialGlassesItems);
 
   return (
@@ -24,7 +24,7 @@ export default function Sunglasses({ addTheCartItem }) {
             <button
               className="addtocart"
               onClick={() => {
-                addTheCartItem(item);
+                addToCart(item);
               }}
             >
               Add to Cart
